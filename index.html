@@ -23,197 +23,107 @@
     </head>
     <body>
         <div class="wrap">
+            <!-- 이름 -->
             <div class="content1">
-                <div class="floor_1">
-                    <div class="display">
-                        <div class="power"></div>
-                        1층 생산 공장 온도
-                    </div>
-                    <div class="value_box">
-                        <div class="temperature">0.0 ℃</div>
-                        <div class="humidity">0 %</div>
-                    </div>
-                </div>
-                <div class="title">
-                    자연식품 생산현장 온,습도 <br />
-                    모니터링 시스템
-                </div>
-                <div class="floor_2">
-                    <div class="display">
-                        <div class="power"></div>
-                        2층 생산 공장 온도
-                    </div>
-                    <div class="value_box">
-                        <div class="temperature">0.0 ℃</div>
-                        <div class="humidity">0 %</div>
-                    </div>
-                </div>
+                <div class="title">질마재 생산현장 온,습도 모니터링 시스템</div>
             </div>
             <div class="content2">
                 <ul>
-                    <li class="panel1" id="">
+                    <!-- 건조장 1 -->
+                    <li class="panel1">
                         <div class="equipment_name">
-                            <div class="power"></div>
-                            교반기 1호차
+                            건조장 1
                         </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(180deg);
-                                "
-                            ></div>
+                        <div class="display">
+                            <div class="display_temperature">
+                                <div class="img_box">
+                                    <img src="img/gauge.png" alt="equipment1" />
+                                    <div
+                                        class="needle"
+                                        style="
+                                            transform: translateX(-50%)
+                                                rotate(0deg);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="value_prop">
+                                    <div class="unit">
+                                        온도
+                                    </div>
+                                    <div class="value" id="dry_1_temperature">
+                                        0 ℃
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="display_humidity">
+                                <div class="img_box">
+                                    <img src="img/gauge.png" alt="equipment1" />
+                                    <div
+                                        class="needle"
+                                        style="
+                                            transform: translateX(-50%)
+                                                rotate(180deg);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="value_prop">
+                                    <div class="unit">
+                                        습도
+                                    </div>
+                                    <div class="value" id="dry_1_humidity">
+                                        0 %
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="value" id="testValue">0 ℃</div>
                     </li>
+                    <!-- 건조장 2 -->
                     <li class="panel1" id="">
                         <div class="equipment_name">
-                            <div class="power"></div>
-                            교반기 2호차
+                            건조장 2 
                         </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(105deg);
-                                "
-                            ></div>
+                        <div class="display">
+                            <div class="display_temperature">
+                                <div class="img_box">
+                                    <img src="img/gauge.png" alt="equipment1" />
+                                    <div
+                                        class="needle"
+                                        style="
+                                            transform: translateX(-50%)
+                                                rotate(180deg);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="value_prop">
+                                    <div class="unit">
+                                        온도
+                                    </div>
+                                    <div class="value" id="dry_2_temperature">
+                                        0 ℃
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="display_humidity">
+                                <div class="img_box">
+                                    <img src="img/gauge.png" alt="equipment1" />
+                                    <div
+                                        class="needle"
+                                        style="
+                                            transform: translateX(-50%)
+                                                rotate(180deg);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="value_prop">
+                                    <div class="unit">
+                                        습도
+                                    </div>
+                                    <div class="value" id="dry_2_humidity">
+                                        0 %
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            교반기 3호차
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(50deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            오미자 1
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(95deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            냉동고 (실내)
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge2.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(50deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                </ul>
-            </div>
-            <div class="content3">
-                <ul>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            오미자 2
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(60deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            오미자 농축기 1
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(20deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            교반기 꿀
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(60deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            꿀 농축기 2
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(45deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
-                    </li>
-                    <li class="panel1" id="">
-                        <div class="equipment_name">
-                            <div class="power"></div>
-                            냉동고 (실외)
-                        </div>
-                        <div class="img_box">
-                            <img src="img/gauge2.png" alt="equipment1" />
-                            <div
-                                class="needle"
-                                style="
-                                    transform: translateX(-50%) rotate(130deg);
-                                "
-                            ></div>
-                        </div>
-                        <div class="value">0 ℃</div>
                     </li>
                 </ul>
             </div>
