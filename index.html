@@ -10,6 +10,16 @@
 
         <!-- 스타일 -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- 제이쿼리 -->
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- 값 불러오는 ajax -->
+        <script src="js/callValues.js"></script>
     </head>
     <body>
         <div class="wrap">
@@ -26,7 +36,7 @@
                 </div>
                 <div class="title">
                     자연식품 생산현장 온,습도 <br />
-                    모니터닝 시스템
+                    모니터링 시스템
                 </div>
                 <div class="floor_2">
                     <div class="display">
@@ -55,7 +65,7 @@
                                 "
                             ></div>
                         </div>
-                        <div class="value">0 ℃</div>
+                        <div class="value" id="testValue">0 ℃</div>
                     </li>
                     <li class="panel1" id="">
                         <div class="equipment_name">
